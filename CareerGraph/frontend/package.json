@@ -1,0 +1,25 @@
+{
+  "name": "careergraph-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "axios": "^1.7.9",
+    "react": "latest",
+    "react-dom": "latest",
+    "reactflow": "^11.11.4",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "vite": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}
